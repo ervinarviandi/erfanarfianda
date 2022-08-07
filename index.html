@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap Css -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- My Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Oleo+Script+Swash+Caps:wght@400;700&family=Roboto:wght@100;300;400;500;700&family=Viga&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My Icons -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+
+    <!-- My Css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Link In Bio Erfan Arfianda</title>
+  </head>
+  <body>
+    <!-- Profile Images -->
+    <div class="profile-images" data-aos="zoom-in">
+      <img src="img/erfan.jpg" width="100" class="rounded-circle" alt="" />
+    </div>
+
+    <!-- Profile-name -->
+    <div class="Profile-name" data-aos="zoom-out-down">
+      <h2>Erfan Arfianda</h2>
+    </div>
+
+    <!-- Link -->
+    <div class="link">
+      <a href="" data-aos="fade-up" data-aos-duration="1000"
+        ><i class="bi bi-globe"></i>Portfolio</a
+      >
+      <a
+        href=""
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+        ><i class="bi bi-instagram"></i>Instagram</a
+      >
+      <a
+        href=""
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+        ><i class="bi bi-twitter"></i>Twitter</a
+      >
+      <a
+        href=""
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+        ><i class="bi bi-dribbble"></i>Dribble</a
+      >
+      <a
+        href=""
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="400"
+        ><i class="bi bi-linkedin"></i>Linkeid</a
+      >
+    </div>
+
+    <!-- Footer -->
+    <footer>Created By <span> Ervin Arviandi </span></footer>
+    <!-- Footer -->
+
+    <script src="node_modules/vanta/vendor/three.r119.min.js"></script>
+    <script src="node_modules/vanta/dist/vanta.birds.min.js"></script>
+
+    <script>
+      VANTA.BIRDS({
+        el: "body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        wingSpan: 25.0,
+        quantity: 3.0,
+        backgroundAlpha: 0.0,
+      });
+    </script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+body {
+  /* background: url(img/DJI_0788.JPG) no-repeat; */
+  background: url(img/DJI_0836.JPG);
+  background-size: cover;
+  height: 100vh;
+}
+
+.profile-images {
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-images img {
+  border: 3px solid #fff;
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); */
+}
+
+.profile-images:hover {
+  transform: rotateY(200deg);
+  transition: all 2s ease-in-out;
+}
+
+.Profile-name h2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #fff;
+  font-family: "Mouse Memoirs", sans-serif;
+}
+
+h2 {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.link {
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  width: 300px;
+}
+
+.link a {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  /* background-color: #f3fe39; */
+  color: #c9df1d;
+  padding: 10px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.link a:hover {
+  background-color: #357335;
+  /* background: linear-gradient(to left, #357335, #c9df1d); */
+  background: linear-gradient(to left, #1e8ebb, #d5effa);
+  color: #fff;
+  transition: all 3s ease-out;
+}
+
+.bi {
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+footer span {
+  /* color: forestgreen; */
+  color: #c9df1d;
+  font-weight: 900;
+}
+
+@media (min-width: 992px) {
+  .link {
+    width: 400px;
+  }
+}
